@@ -1,0 +1,20 @@
+body{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+.bullets{
+    padding-left: 0px;
+}
+.heading{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex; 
+    justify-content: center;
+}
+.thisStat{
+    /* display: flex; */
+    list-style-type:none;
+    /* justify-content: left; */
+    margin: 5px;
+}

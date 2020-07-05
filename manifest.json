@@ -1,0 +1,16 @@
+{
+  "name": "Check Internet Health",
+  "version": "1.0",
+  "description": "Get current internet status - just like a ping command !",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "analysis/index.html",
+    "default_icon": {
+      "32": "images/pingStart32.png"
+    }
+  },
+  "manifest_version": 2
+}
